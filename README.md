@@ -23,7 +23,7 @@ You’ll build a mini language learning portal: a simple web application where u
 - A page presenting the details and lessons for a single course
 - A page presenting the details for a single lesson and a _Record_ button
 
-_Note: each page should be designed for mobile viewports; they do not need to responsively scale up for wide screens._
+_Note: each page should be designed to support only mobile viewports; they do not need to responsively scale up for wide screens._
 
 #### Recording experience
 
@@ -34,11 +34,18 @@ _Note: each page should be designed for mobile viewports; they do not need to re
 
 ## Provided assets
 
-- [Courses](/assets/course.json)
-- [Audio](/assets/audio-chunks.json)
-- [Transcriptions](/assets/audio-transcriptions.json)
+### Frontend data
 
-## Judging criteria
+- [`audio.json`](/assets/audio.json) contains simulated recorded audio chunks
+
+### Backend data
+
+- [`course.json`](/assets/course.json) contains an enumerable of course entities that exist in the system
+- [`transcriptions.json`](/assets/transcriptions.json) contains the corresponding transcribed text for each audio chunk
+
+_Note: Feel free to modify the file type and syntax to align with your chosen technologies._
+
+## Evaluation criteria
 
 - Architecture and code quality
 - Code readability and maintainability
