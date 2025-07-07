@@ -15,7 +15,7 @@ You’ll build a mini language learning portal: a simple web application where u
 - Persist data via a lightweight database or JSON files
 - Feel encouraged to leverage AI tooling to efficiently deliver a solution
 
-## Product requirements
+## Requirements
 
 ### Pages
 
@@ -30,27 +30,13 @@ _Note: each page should be designed for mobile viewports; they do not need to re
 - Simulate sending audio chunks to the backend via WebSocket
 - Simulate real-time updates to display transcribed text as it streams in
 
+<!-- Todo: embed a video or gif of this experience -->
+
 ## Provided assets
 
 - [Courses](/assets/course.json)
 - [Audio](/assets/audio-chunks.json)
 - [Transcriptions](/assets/audio-transcriptions.json)
-
-## Submission guidelines
-
-- Fork the repository at <https://github.com/usespeakeasy/full-stack-take-home-assessment>, ensuring the fork is private
-
-    ```bash
-    gh repo fork usespeakeasy/full-stack-take-home-assessment --clone --visibility private
-    ```
-
-- Complete your work in your forked repository
-- Add a section to the `README` describing how to run the application locally
-- Add the following GitHub users as collaborators to your fork:
-  - tc
-  - jerrypopsoff
-  - ngamolsky
-- Send the link to your fork to our recruiter
 
 ## Judging criteria
 
@@ -76,6 +62,32 @@ If selected, your take-home project will be a key discussion topic during your o
 - Decisions regarding architecture, design, and implementation
 - Challenges faced and how you solved them
 - Features or improvements you would add with more time
+
+## Getting started
+
+1. Fork and clone [this repository](https://github.com/usespeakeasy/full-stack-take-home-assessment)
+
+    ```bash
+    gh repo fork usespeakeasy/full-stack-take-home-assessment --clone
+    ```
+
+1. Update your forked repository visibility to `private`
+
+    ```bash
+    gh repo edit <your-username>/full-stack-take-home-assessment --visibility private --accept-visibility-change-consequences
+    ```
+
+1. Complete your work in your forked repository
+1. Add a section to the `README` describing how to run the application locally
+1. Add `tc`, `jerrypopsoff`, and `ngamolsky` as collaborators to your fork:
+
+    ```bash
+    gh repo add-collaborator <your-username>/full-stack-take-home-assessment tc
+    gh repo add-collaborator <your-username>/full-stack-take-home-assessment jerrypopsoff
+    gh repo add-collaborator <your-username>/full-stack-take-home-assessment ngamolsky
+    ```
+
+1. Send the link to your fork to our recruiter
 
 ---
 
