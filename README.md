@@ -23,6 +23,8 @@ You’ll build a mini language learning portal: a simple web application where u
 - A page presenting the details and lessons for a single course
 - A page presenting the details for a single lesson and a _Record_ button
 
+_Note: each page should be designed for mobile viewports; they do not need to responsively scale up for wide screens._
+
 #### Recording experience
 
 - Simulate sending audio chunks to the backend via WebSocket
@@ -53,30 +55,28 @@ You’ll build a mini language learning portal: a simple web application where u
 ## Judging criteria
 
 - Architecture and code quality
-  - Clear separation of concerns (frontend/backend, components, services, etc.)
-  - Clean, idiomatic code
-- Code readability and documentation
-  - Well-organized, easy to follow, and well-documented
+- Code readability and maintainability
 - API design
-  - RESTful, consistent, and easy to use
 - Real-time communication
-  - Proper use of WebSocket for streaming transcription
-- UI/UX
-  - Intuitive, responsive, and visually clear
-- Bonus points
-  - Unit/integration tests
-  - Error handling and edge cases
-  - Dark mode support
-  - User authentication
-  - Dockerization for easy setup
+- User experience
+
+### Non-goals
+
+Do not feel obligated to invest effort in the following deliverables:
+
+- Automated tests
+- User authentication
+- Containerization / CI
+- Dark mode support
 
 ## Onsite presentation
 
-If selected, your take-home project will be a key discussion topic during your onsite interview. Be prepared to present:
+If selected, your take-home project will be a key discussion topic during your onsite interview. Be prepared to discuss:
 
-- Your architecture and design decisions
-- Feature implementation overview
-- Bonus features or improvements you’d add with more time
+- Decisions regarding architecture, design, and implementation
 - Challenges faced and how you solved them
+- Features or improvements you would add with more time
+
+---
 
 Good luck! We look forward to reviewing your work. 🚀
