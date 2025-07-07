@@ -96,6 +96,12 @@ If selected, your take-home project will be a key discussion topic during your o
 
 1. Send the link to your fork to our recruiter
 
+## Need help?
+
+If you have any questions or need clarification at any point during the take-home, please don’t hesitate to reach out to your recruiter via email. We’re happy to help!
+
+We want you to feel supported throughout the process—no question is too small!
+
 ---
 
 Good luck! We look forward to reviewing your work. 🚀
